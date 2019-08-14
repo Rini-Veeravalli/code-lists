@@ -11,3 +11,14 @@ setwd(“N:/Documents/hcm/”)
 data(“CALIBER_DICT”)
 data(“CALIBER_DICTMAPS”)
 setdictionary(“icd10”)
+
+# create selections from terms/codes
+# browse and adjudicate terms with 'browseSelection(your_selection)'
+# exclude terms
+# assign categories
+
+
+exportall()
+
+# insert name of your .Rmd file
+process(“sample.Rmd”)
